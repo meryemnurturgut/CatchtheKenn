@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		585EE3CD28E85B10009E7E7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EE3CC28E85B10009E7E7B /* AppDelegate.swift */; };
+		585EE3CF28E85B10009E7E7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EE3CE28E85B10009E7E7B /* SceneDelegate.swift */; };
+		585EE3D128E85B10009E7E7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EE3D028E85B10009E7E7B /* ViewController.swift */; };
+		585EE3D428E85B10009E7E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585EE3D228E85B10009E7E7B /* Main.storyboard */; };
+		585EE3D628E85B12009E7E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585EE3D528E85B12009E7E7B /* Assets.xcassets */; };
+		585EE3D928E85B12009E7E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585EE3D728E85B12009E7E7B /* LaunchScreen.storyboard */; };
+		585EE3E428E85B12009E7E7B /* CatchTheKennyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EE3E328E85B12009E7E7B /* CatchTheKennyTests.swift */; };
+		585EE3EE28E85B12009E7E7B /* CatchTheKennyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EE3ED28E85B12009E7E7B /* CatchTheKennyUITests.swift */; };
+		585EE3F028E85B12009E7E7B /* CatchTheKennyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EE3EF28E85B12009E7E7B /* CatchTheKennyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		585EE3E028E85B12009E7E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585EE3C128E85B0F009E7E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585EE3C828E85B0F009E7E7B;
+			remoteInfo = CatchTheKenny;
+		};
+		585EE3EA28E85B12009E7E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585EE3C128E85B0F009E7E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585EE3C828E85B0F009E7E7B;
+			remoteInfo = CatchTheKenny;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		585EE3C928E85B10009E7E7B /* CatchTheKenny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheKenny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		585EE3CC28E85B10009E7E7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		585EE3CE28E85B10009E7E7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		585EE3D028E85B10009E7E7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		585EE3D328E85B10009E7E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		585EE3D528E85B12009E7E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		585EE3D828E85B12009E7E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		585EE3DA28E85B12009E7E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585EE3DF28E85B12009E7E7B /* CatchTheKennyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheKennyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		585EE3E328E85B12009E7E7B /* CatchTheKennyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheKennyTests.swift; sourceTree = "<group>"; };
+		585EE3E928E85B12009E7E7B /* CatchTheKennyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheKennyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		585EE3ED28E85B12009E7E7B /* CatchTheKennyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheKennyUITests.swift; sourceTree = "<group>"; };
+		585EE3EF28E85B12009E7E7B /* CatchTheKennyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheKennyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		585EE3C628E85B0F009E7E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585EE3DC28E85B12009E7E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585EE3E628E85B12009E7E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		585EE3C028E85B0F009E7E7B = {
+			isa = PBXGroup;
+			children = (
+				585EE3CB28E85B10009E7E7B /* CatchTheKenny */,
+				585EE3E228E85B12009E7E7B /* CatchTheKennyTests */,
+				585EE3EC28E85B12009E7E7B /* CatchTheKennyUITests */,
+				585EE3CA28E85B10009E7E7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		585EE3CA28E85B10009E7E7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				585EE3C928E85B10009E7E7B /* CatchTheKenny.app */,
+				585EE3DF28E85B12009E7E7B /* CatchTheKennyTests.xctest */,
+				585EE3E928E85B12009E7E7B /* CatchTheKennyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		585EE3CB28E85B10009E7E7B /* CatchTheKenny */ = {
+			isa = PBXGroup;
+			children = (
+				585EE3CC28E85B10009E7E7B /* AppDelegate.swift */,
+				585EE3CE28E85B10009E7E7B /* SceneDelegate.swift */,
+				585EE3D028E85B10009E7E7B /* ViewController.swift */,
+				585EE3D228E85B10009E7E7B /* Main.storyboard */,
+				585EE3D528E85B12009E7E7B /* Assets.xcassets */,
+				585EE3D728E85B12009E7E7B /* LaunchScreen.storyboard */,
+				585EE3DA28E85B12009E7E7B /* Info.plist */,
+			);
+			path = CatchTheKenny;
+			sourceTree = "<group>";
+		};
+		585EE3E228E85B12009E7E7B /* CatchTheKennyTests */ = {
+			isa = PBXGroup;
+			children = (
+				585EE3E328E85B12009E7E7B /* CatchTheKennyTests.swift */,
+			);
+			path = CatchTheKennyTests;
+			sourceTree = "<group>";
+		};
+		585EE3EC28E85B12009E7E7B /* CatchTheKennyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				585EE3ED28E85B12009E7E7B /* CatchTheKennyUITests.swift */,
+				585EE3EF28E85B12009E7E7B /* CatchTheKennyUITestsLaunchTests.swift */,
+			);
+			path = CatchTheKennyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		585EE3C828E85B0F009E7E7B /* CatchTheKenny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585EE3F328E85B12009E7E7B /* Build configuration list for PBXNativeTarget "CatchTheKenny" */;
+			buildPhases = (
+				585EE3C528E85B0F009E7E7B /* Sources */,
+				585EE3C628E85B0F009E7E7B /* Frameworks */,
+				585EE3C728E85B0F009E7E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatchTheKenny;
+			productName = CatchTheKenny;
+			productReference = 585EE3C928E85B10009E7E7B /* CatchTheKenny.app */;
+			productType = "com.apple.product-type.application";
+		};
+		585EE3DE28E85B12009E7E7B /* CatchTheKennyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585EE3F628E85B12009E7E7B /* Build configuration list for PBXNativeTarget "CatchTheKennyTests" */;
+			buildPhases = (
+				585EE3DB28E85B12009E7E7B /* Sources */,
+				585EE3DC28E85B12009E7E7B /* Frameworks */,
+				585EE3DD28E85B12009E7E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585EE3E128E85B12009E7E7B /* PBXTargetDependency */,
+			);
+			name = CatchTheKennyTests;
+			productName = CatchTheKennyTests;
+			productReference = 585EE3DF28E85B12009E7E7B /* CatchTheKennyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		585EE3E828E85B12009E7E7B /* CatchTheKennyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585EE3F928E85B12009E7E7B /* Build configuration list for PBXNativeTarget "CatchTheKennyUITests" */;
+			buildPhases = (
+				585EE3E528E85B12009E7E7B /* Sources */,
+				585EE3E628E85B12009E7E7B /* Frameworks */,
+				585EE3E728E85B12009E7E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585EE3EB28E85B12009E7E7B /* PBXTargetDependency */,
+			);
+			name = CatchTheKennyUITests;
+			productName = CatchTheKennyUITests;
+			productReference = 585EE3E928E85B12009E7E7B /* CatchTheKennyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		585EE3C128E85B0F009E7E7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					585EE3C828E85B0F009E7E7B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					585EE3DE28E85B12009E7E7B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 585EE3C828E85B0F009E7E7B;
+					};
+					585EE3E828E85B12009E7E7B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 585EE3C828E85B0F009E7E7B;
+					};
+				};
+			};
+			buildConfigurationList = 585EE3C428E85B0F009E7E7B /* Build configuration list for PBXProject "CatchTheKenny" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 585EE3C028E85B0F009E7E7B;
+			productRefGroup = 585EE3CA28E85B10009E7E7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				585EE3C828E85B0F009E7E7B /* CatchTheKenny */,
+				585EE3DE28E85B12009E7E7B /* CatchTheKennyTests */,
+				585EE3E828E85B12009E7E7B /* CatchTheKennyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		585EE3C728E85B0F009E7E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585EE3D928E85B12009E7E7B /* LaunchScreen.storyboard in Resources */,
+				585EE3D628E85B12009E7E7B /* Assets.xcassets in Resources */,
+				585EE3D428E85B10009E7E7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585EE3DD28E85B12009E7E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585EE3E728E85B12009E7E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		585EE3C528E85B0F009E7E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585EE3D128E85B10009E7E7B /* ViewController.swift in Sources */,
+				585EE3CD28E85B10009E7E7B /* AppDelegate.swift in Sources */,
+				585EE3CF28E85B10009E7E7B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585EE3DB28E85B12009E7E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585EE3E428E85B12009E7E7B /* CatchTheKennyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585EE3E528E85B12009E7E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585EE3F028E85B12009E7E7B /* CatchTheKennyUITestsLaunchTests.swift in Sources */,
+				585EE3EE28E85B12009E7E7B /* CatchTheKennyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		585EE3E128E85B12009E7E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585EE3C828E85B0F009E7E7B /* CatchTheKenny */;
+			targetProxy = 585EE3E028E85B12009E7E7B /* PBXContainerItemProxy */;
+		};
+		585EE3EB28E85B12009E7E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585EE3C828E85B0F009E7E7B /* CatchTheKenny */;
+			targetProxy = 585EE3EA28E85B12009E7E7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		585EE3D228E85B10009E7E7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				585EE3D328E85B10009E7E7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		585EE3D728E85B12009E7E7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				585EE3D828E85B12009E7E7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		585EE3F128E85B12009E7E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		585EE3F228E85B12009E7E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		585EE3F428E85B12009E7E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTYR9RSGCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchTheKenny/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meryemnurturgut.CatchTheKenny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		585EE3F528E85B12009E7E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTYR9RSGCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchTheKenny/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meryemnurturgut.CatchTheKenny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		585EE3F728E85B12009E7E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTYR9RSGCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meryemnurturgut.CatchTheKennyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheKenny.app/CatchTheKenny";
+			};
+			name = Debug;
+		};
+		585EE3F828E85B12009E7E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTYR9RSGCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meryemnurturgut.CatchTheKennyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheKenny.app/CatchTheKenny";
+			};
+			name = Release;
+		};
+		585EE3FA28E85B12009E7E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTYR9RSGCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meryemnurturgut.CatchTheKennyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatchTheKenny;
+			};
+			name = Debug;
+		};
+		585EE3FB28E85B12009E7E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XTYR9RSGCF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meryemnurturgut.CatchTheKennyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatchTheKenny;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		585EE3C428E85B0F009E7E7B /* Build configuration list for PBXProject "CatchTheKenny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585EE3F128E85B12009E7E7B /* Debug */,
+				585EE3F228E85B12009E7E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585EE3F328E85B12009E7E7B /* Build configuration list for PBXNativeTarget "CatchTheKenny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585EE3F428E85B12009E7E7B /* Debug */,
+				585EE3F528E85B12009E7E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585EE3F628E85B12009E7E7B /* Build configuration list for PBXNativeTarget "CatchTheKennyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585EE3F728E85B12009E7E7B /* Debug */,
+				585EE3F828E85B12009E7E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585EE3F928E85B12009E7E7B /* Build configuration list for PBXNativeTarget "CatchTheKennyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585EE3FA28E85B12009E7E7B /* Debug */,
+				585EE3FB28E85B12009E7E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 585EE3C128E85B0F009E7E7B /* Project object */;
+}
